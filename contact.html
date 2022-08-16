@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=62729dcb1dc34500127f9a50&product=sticky-share-buttons'
+    async='async'></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Sora:wght@259;800&family=Square+Peg&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/2e21358c92.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Messenger Chat plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "105072371585120");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v13.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Header start -->
+  <header class="text-gray-600 body-font" style="background-color: darkslateblue; 
+    width: 100%; opacity: 0.93; padding: -0.5rem;">
+    <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="/">
+
+        <img src="/logo.png" height="70px" width="70px" alt="">
+        <span style="font-size: 2.00rem;" class="ml-7 text-xl"
+          style="font-size: larger; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Nivesh
+          Manch</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" style="color:white;" href="/#about">About us</a>
+        <a class="mr-5 hover:text-gray-900" style="color:white;" href="/#partner">Partners</a>
+        <a class="mr-5 hover:text-gray-900" href="/contact.html" style="color:white;">Contact us</a>
+      </nav>
+
+    </div>
+  </header>
+ 
+  <div id="contact">
+    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="text-align: center"> Call or Ping
+      us at 9650102543 </h1>
+    <iframe style="margin: auto;" src="https://docs.google.com/forms/d/e/1FAIpQLSfZSoh1wzun4TMoYnomt5_0WKEOfOMEXT_nvZnJ3NHyCtu29w/viewform?embedded=true" width="90%" height="500px" marginwidth="0">Loading…</iframe>
+  </div>
+  <!-- Contact Details End -->
+  <!-- Footer Start -->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="/logo.png" height="70px" width="70px" alt="">
+
+        <span class="ml-3 text-xl">Niveshmanch</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+        © 2020 Niveshmanch
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a href="https://www.facebook.com/niveshmanchsahihai/" class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/nivesh_manch_/" class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a href="https://in.linkedin.com/in/nivesh-manch-3b110a22a?trk=people-guest_people_search-card"
+          class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+  <!-- Footer end -->
+</body>
+
+</html>
